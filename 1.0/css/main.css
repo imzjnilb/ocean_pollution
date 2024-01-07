@@ -1,0 +1,287 @@
+body {
+  width: 100vw;
+  height: 6750px;
+  background-image: url(../img/1.0_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff !important;
+  overflow-x: hidden;
+}
+.row img {
+  max-width: 100%;
+  max-height: 100%;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans TC;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 14.4px;
+}
+h5 {
+  color: #fff;
+}
+.title {
+  height: 150px;
+  background-image: url(../img/1.0_underline_title.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 465px 0px;
+}
+/* 小魚開始 */
+.fish-s {
+  margin: calc(495px / 2) 0;
+}
+.fish-s-all {
+  display: inline-flex;
+}
+.fish-s-all-text {
+  margin-top: 115px;
+}
+.fish-s-title {
+  height: 150px;
+  text-align: end;
+  background-image: url(../img/1.0_title.png);
+  background-repeat: no-repeat;
+  background-position: 150px 10px;
+}
+.line-1 {
+  display: flex;
+  /* align-items: flex-start; */
+  margin-top: 20px;
+}
+.fish-s-type {
+  margin-top: 40px;
+}
+.fish-s-type-title {
+  width: 225px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-s-type-01 {
+  display: flex;
+}
+.fish-s-type-02 {
+  display: flex;
+  margin-top: 10px;
+}
+.fish-s-name-title {
+  width: 225px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-s-name-text {
+  margin-top: 40px;
+}
+.line-2 {
+  margin-top: 35px;
+}
+.fish-s-special-title {
+  width: 540px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-s-special-text {
+  margin-top: 40px;
+}
+.line-3 {
+  margin-top: 35px;
+}
+.fish-s-live-title {
+  width: 540px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-s-live-text {
+  margin-top: 40px;
+}
+/* 小魚結束 */
+/* 中魚開始 */
+.fish-m {
+  margin: calc(440px / 2) 0;
+}
+.fish-m-all {
+  display: inline-flex;
+}
+.fish-m-all-text {
+  margin-top: 115px;
+}
+.fish-m-title {
+  text-align: start;
+  height: 150px;
+  text-align: end;
+  background-image: url(../img/1.0_title.png);
+  background-repeat: no-repeat;
+  background-position: 150px 10px;
+}
+.line-1 {
+  display: flex;
+  /* align-items: flex-start; */
+  margin-top: 20px;
+}
+.fish-m-type {
+  margin-top: 40px;
+}
+.fish-m-type-title {
+  width: 225px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-m-type-01 {
+  display: flex;
+}
+.fish-m-type-02 {
+  display: flex;
+  margin-top: 10px;
+}
+.fish-m-name-title {
+  width: 225px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-m-name-text {
+  margin-top: 40px;
+}
+.line-2 {
+  margin-top: 35px;
+}
+.fish-m-special-title {
+  width: 540px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-m-special-text {
+  margin-top: 40px;
+}
+.line-3 {
+  margin-top: 35px;
+}
+.fish-m-live-title {
+  width: 540px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-m-live-text {
+  margin-top: 40px;
+}
+/* 中魚結束 */
+/* 大魚開始 */
+.fish-xl {
+  margin: calc(325px / 2) 0;
+}
+.fish-xl-all {
+  display: inline-flex;
+}
+.fish-xl-all-text {
+  margin-top: 115px;
+}
+.fish-xl-title {
+  text-align: end;
+  height: 150px;
+  text-align: end;
+  background-image: url(../img/1.0_title.png);
+  background-repeat: no-repeat;
+  background-position: 150px 10px;
+}
+.line-1 {
+  display: flex;
+  /* align-items: flex-start; */
+  margin-top: 20px;
+}
+.fish-xl-type {
+  margin-top: 40px;
+}
+.fish-xl-type-title {
+  width: 225px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-xl-type-01 {
+  display: flex;
+}
+.fish-xl-type-02 {
+  display: flex;
+  margin-top: 10px;
+}
+.fish-xl-name-title {
+  width: 225px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-xl-name-text {
+  margin-top: 40px;
+}
+.line-2 {
+  margin-top: 35px;
+}
+.fish-xl-special-title {
+  width: 540px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-xl-special-text {
+  margin-top: 40px;
+}
+.line-3 {
+  margin-top: 35px;
+}
+.fish-xl-live-title {
+  width: 540px;
+  border-bottom: solid #fff 1.5px;
+}
+.fish-xl-live-text {
+  margin-top: 40px;
+}
+/* 大魚結束 */
+.human {
+  margin-top: 100px;
+}
+.effect {
+  margin-top: 365px;
+}
+.effect-title {
+  width: auto;
+  height: 110px;
+  align-items: center;
+  background-image: url(../img/1.0_effect_circle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.effect-text {
+  margin-top: 65px;
+}
+.about-text {
+  color: #ffffff;
+  display: inline-flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: transparent;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.material-symbols-outlined {
+  padding-top: 3px;
+  font-size: 50px;
+}
+.material-symbols-outlined ::before {
+  vertical-align: middle;
+  align-items: center;
+}
+.about h4:hover {
+  color: #30ff00;
+}
+.about h4:hover ~ .material-symbols-outlined {
+  color: #30ff00;
+}
+.about h4 {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.about {
+  display: flex;
+  justify-content: flex-end;
+}
+footer {
+  width: 100vw;
+  height: 256px;
+  display: flex;
+  background-image: url(../img/1.0_footer.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: sticky;
+  top: 100vh;
+}
