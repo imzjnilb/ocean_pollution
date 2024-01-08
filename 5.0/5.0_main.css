@@ -138,7 +138,7 @@ body {
 }
 
 .content {
-  margin: 0 20vw;
+  margin: 0 10vw;
 }
 
 .title span {
@@ -147,6 +147,8 @@ body {
 
 .title {
   height: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
   padding: 10px;
   display: inline-flex;
   align-items: center;
@@ -188,7 +190,8 @@ h5 {
 .item img {
   position: absolute;
   z-index: 2;
-  width: auto;
+  max-height: 100%;
+  max-width: 75%;
 }
 
 .circle {
@@ -227,20 +230,23 @@ h5 {
   margin: 3% 1%;
 }
 
-.map img {
+/* .map img {
   width: 55%;
   display: inline;
-}
+} */
 
-.info {
+/* .info {
   width: 35%;
 }
 
 .info img {
   width: 100%;
   display: inline;
+} */
+.information img {
+  max-width: 100%;
+  max-height: 100%;
 }
-
 .footer {
   width: 100vw;
   background-color: transparent;
@@ -271,4 +277,21 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+h5 {
+  color: #fff;
+
+  /* 內文 */
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.information {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.carousel {
+  margin: 50px 0;
 }
